@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -24,6 +25,10 @@ html {
 .card-title {
   margin: 0;
   padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 .card-label {
